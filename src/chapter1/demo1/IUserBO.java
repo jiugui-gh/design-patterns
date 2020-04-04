@@ -26,7 +26,7 @@ public interface IUserBO {
     
     boolean addOrg2(int orgId);
 
-    boolean addRole3(int roleId);
+    boolean addRole2(int roleId);
     
     
 }
