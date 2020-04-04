@@ -24,9 +24,9 @@ public interface IUserBO {
     
     void mapUser();
     
-    boolean addOrg1(int orgId);
+    boolean addOrg(int orgId);
 
-    boolean addRole1(int roleId);
+    boolean addRole(int roleId);
     
     
 }
