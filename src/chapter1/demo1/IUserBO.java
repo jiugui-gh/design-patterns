@@ -20,12 +20,13 @@ public interface IUserBO {
     
     boolean changePassword(String password);
     
-    boolean deleteUser1();
+    boolean deleteUser();
     
-    void mapUse1r();
+    void mapUser();
     
-    boolean addOrg1(int orgId);
+    boolean addOrg(int orgId);
 
-    boolean addRole1(int roleId);
+    boolean addRole(int roleId);
+    
     
 }
