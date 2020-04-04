@@ -10,9 +10,9 @@ public interface IUserBO {
     
     String getPassword();
     
-    void setUserName(String name);
+    void setUserName1(String name);
     
-    String getUserName();
+    String getUserName1();
     
     // 这上面的方法都是用户属性相关的方法
     // 这下面的方法都是用户行为相关的方法
